@@ -1,0 +1,20 @@
+{
+  "__description": "BDD test automation framework using CodeceptJS and Puppeteer",
+  "name": "automated-framework-gherkin-bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --features --verbose",
+    "test-dev": "npx codeceptjs run --grep '@TestingMultipleLogIns' --verbose",
+    "_comment": "Runs only the test with the tag @TestingMultipleLogIns and --Verbose flag to see the output of errors in detail in the console"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "__comment": "Core testing framework dependencies",
+    "codeceptjs": "^3.6.10",
+    "puppeteer": "^23.11.1"
+  }
+}

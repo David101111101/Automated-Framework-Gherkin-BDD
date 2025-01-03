@@ -1,0 +1,1 @@
+Data Driven Gherking Test using an outline escenario to run a loggin test multiple times using variables for username and password.
